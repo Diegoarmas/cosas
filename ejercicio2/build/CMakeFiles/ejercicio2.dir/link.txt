@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ejercicio2.dir/src/main.cc.o CMakeFiles/ejercicio2.dir/src/func.cc.o -o ejercicio2 

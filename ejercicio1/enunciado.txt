@@ -1,0 +1,37 @@
+Los objetivos de esta práctica son que el alumnado:
+
+Sea capaz de resolver problemas sencillos en C++  
+
+std::vector<double> my_vector = GenerateVector(10, 5.0, 10.0);
+for (const auto& value: my_vector) {
+  std::cout << "Component: " << value << std::endl;
+}
+La llamada anterior inicializaría el vector my_vector con 10 componentes de tipo double cuyos valores se generaron aleatoriamente en el rango (5.0, 10.0). A continuación el bucle imprime los valores (componentes) que se almacenan en ese vector.
+
+Desarrolle un programa que incluya una función cuyo nombre sea ReduceSum que tome como parámetro un vector de números en punto flotante y devuelva como resultado la suma de todos los valores almacenados en el vector.
+Utilice la función GenerateVector() para generar vectores y probar el funcionamiento de ReduceSum.
+
+Public test cases
+Input           Output
+1.0 1.0 1.0      3.0
+1 2 3 4 5 6     21.0
+0 0 0 0 1 0 1    2.0
+Desarrolle un programa que incluya una función que tome como parámetro un vector y calcule los valores máximo, mínimo y promedio de todos los valores almacenados en el vector.
+Puesto que una función solo puede devolver un único valor, tendrá que investigar algún mecanismo para posibilitar que la función devuelva esos tres valores (máximo, mínimo y promedio). Una posible solución sería desarrollar 3 funciones diferentes, una para cada uno de los cálculos, pero esa solución sería ineficiente porque cada una de esas funciones recorrería el vector una vez (tres en total) pero el problema se puede resolver recorriendo el vector una única vez.
+
+Se puede resolver el problema utilizando el paso de parámetros por referencia para posibilitar que la función "comunique" a su llamador los tres valores que calcula.
+
+Utilice la función GenerateVector() para generar vectores y probar el funcionamiento de su función.
+
+Desarrolle un programa que incluya una función que tome como parámetros dos vectores y devuelva como resultado un tercer vector que sea la "concatenación" de los dos vectores pasados.
+Public test cases
+Input           Output
+5
+1 2 3 4 5
+4
+10 20 30 40
+ 1 2 3 4 5 10 20 30 40
+
+
+
+  

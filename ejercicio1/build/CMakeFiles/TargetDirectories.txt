@@ -1,0 +1,3 @@
+/home/diego/p10ib2023-24/ejercicio1/build/CMakeFiles/ejercicio1.dir
+/home/diego/p10ib2023-24/ejercicio1/build/CMakeFiles/edit_cache.dir
+/home/diego/p10ib2023-24/ejercicio1/build/CMakeFiles/rebuild_cache.dir
